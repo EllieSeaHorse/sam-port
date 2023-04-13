@@ -20,7 +20,7 @@
     overflow-y :hidden;
 }
 .page-body {
-    background-image: url("/Users/sam/Desktop/CodeProjects/Portfolio/Back.jpg") ;
+    background-image: url("../../Back.jpg") ;
     background-position: right 0px bottom 0px;
     background-repeat:no-repeat;
     min-height: 800px;
