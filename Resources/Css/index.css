@@ -1,0 +1,202 @@
+* {
+    font-family:  'Belleza', Arial, sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+:root {
+    --blue: #617386;
+    --red:  #732929;
+}
+
+.main-body  {
+    background-image: url("/Users/sam/Desktop/CodeProjects/Portfolio/Back.jpg");
+    background-position: right 0px bottom 0px;
+    background-repeat:no-repeat;
+    min-height: 800px;
+    background-size:cover;
+    background-color: #97bfd5;
+    background-blend-mode: multiply;
+    overflow-y :hidden;
+}
+.page-body {
+    background-image: url("/Users/sam/Desktop/CodeProjects/Portfolio/Back.jpg") ;
+    background-position: right 0px bottom 0px;
+    background-repeat:no-repeat;
+    min-height: 800px;
+    background-size:cover;
+    background-color: #97bfd5;
+    background-blend-mode: multiply;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 4%;
+    width: 92%;
+    height: 5%;
+    position:sticky;
+    flex-grow: 1;
+}
+.site-title {
+    color: #ffffff;
+}
+#name {
+    font-size: 1.2em;
+
+}
+#name-title {
+    font-size: 0.6em;
+}
+
+.toolbar {
+    text-align: right;
+}
+.toolbar a{
+
+    font-size: 0.8em;
+    padding: 0px 5px;
+    background-color:rgb(115, 41, 41);
+    background-blend-mode: darken;
+} 
+.toolbar a:hover {
+    background-color:rgb(56, 68, 84);
+
+}
+
+main{
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    width: 96%;
+    left: 2%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.page {
+    background-color: #b1c4cf;
+}
+
+/* Home Page */
+.series{
+    position: inherit;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    overflow-x: scroll;
+
+
+}
+
+.series h1 {
+    flex-grow: 2;
+    min-width: 150px;
+    margin: 0 3px;
+    background-color:rgb(115, 41, 41);
+    transition-property: min-width;
+    transition-duration: 0.7s;
+
+}
+.series h1:hover {
+    min-width: 250px;
+}
+
+.series h1 a {
+    position: fixed;
+    padding: 5px 5px;
+    bottom: 0;
+    text-align: right;
+    font-size: 0.7em;
+    color:#ffffff;
+    mix-blend-mode: difference;
+}
+/* Other Pages */
+
+.title {
+    padding: 5% 10%;
+}
+article {
+    padding: 5% 10%;
+}
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer{
+
+    margin: 4% 4%;
+    position:fixed; 
+    bottom: 1%;
+    right: 0;
+    min-height: 1%;
+    text-align: right;
+}
+
+footer a{
+    font-size: 0.8em;
+    padding: 0px 5px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(56, 68, 84);
+    background-blend-mode: darken;
+    
+}
+footer a:hover {
+    background-color:rgb(115, 41, 41);
+}
+
+a:visited{
+    color: rgb(216, 216, 216);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: rgb(222, 222, 222);
+
+}
+
+a:active {
+    color: lightsteelblue;
+} 
+
+.instagram:active {
+
+    background: -webkit-linear-gradient(50deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background-color:  #b1c4cf; */
+
+}
+.facebook:active {
+    background-color:#3b5998 ;
+}
+.linkedin:active {
+    background-color: #0072b1 ;
+}
+.mail:active {
+    background-color: #BB001B;
+}
+
+#Trepidation {
+    background-image: url("http://samamoayeri.com/wp-content/uploads/2021/05/DSF1132-scaled.jpg");
+}
+#WhiteNights {
+    background-image: url("http://samamoayeri.com/wp-content/uploads/2021/05/Web-Sp-70.jpg");
+}
+
+.backImage {
+    height: 150px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+
+}
